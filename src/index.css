@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+header {
+  height: 60pt;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5pt;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+header > div.bar {
+  min-width: 280px;
+  max-width: 80%;
+  height: 30pt;
+  border-radius: 15pt;
+  background-color: gray;
+}
+
+header > div.profile {
+  height: 42pt;
+  width: 42pt;
+  border-radius: 21pt;
+  background-color: gray;
+  text-align: center;
+  line-height: 42pt;
+}
+
+section.main-page {
+  position: relative;
+  min-width: 370px;
+  max-width: 768px;
+  min-height: calc(100vh - 60pt);
+  /* background-color: salmon; */
+  display: flex;
+  padding: 20px 20px 60pt 20px;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 40pt;
+}
+
+div.games {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: white; */
+}
+
+div.games  div {
+  width: 80pt;
+  height: 80pt;
+  border-radius: 40pt;
+  background-color: lightgrey;
+  font-size: 20pt;
+  text-align: center;
+  line-height: 80pt;
+}
+
+footer {
+  position: fixed;
+  height: 60pt;
+  min-width: 370px;
+  max-width: 768px;
+  bottom: 0;
+  background-color: whitesmoke;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  border-top: 2px solid rgba(154, 161, 156, 150);
+}
+
+span.footer-item {
+  display: inline-block;
+  /* height: 100%; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30pt;
+}
+
+form > div.form-input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form > div > label {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+form input[type=text] {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+form input[type=submit] {
+  display: block;
+  margin: 0 auto;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 40pt;
+  border: none;
+  outline: none;
+  color: whitesmoke;
+  width: 120pt;
+}
+
+div.help-btn {
+  position: fixed;
+  bottom: 70pt;
+  right: 15pt;
+  width: 60pt;
+  height: 60pt;
+  border-radius: 30pt;
+  background-color: gray;
+  text-align: center;
+  line-height: 60pt;
+}
+
+div.help-btn > span {
+  font-size: 40pt;
+}
+
+h2.stopwatch{
+  position: absolute;
+  top: 20pt;
+  left: 15pt;
+  font-size: 16pt;
+  background-color: gray;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+h2.attempt-box {
+  position: absolute;
+  top: 20pt;
+  right: 15pt;
+  font-size: 16pt;
+  background-color: gray;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+div.topic-item {
+  height: 100px;
+  border-radius: 20px;
+  background-color: gainsboro;
+}
