@@ -1,5 +1,4 @@
 // by Anas Azhar
-import { useContext } from "react"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 
 // Context
@@ -18,6 +17,7 @@ import HowToPlayPage from "./pages/HowToPlayPage"
 import HelpPage from "./pages/HelpPage"
 import ProfilePage from "./pages/ProfilePage"
 import GamePage from "./pages/GamePage"
+import AboutPage from "./pages/AboutPage"
 
 export default function App(){
 
@@ -30,6 +30,7 @@ export default function App(){
                 <Routes>
                     <Route path="/" element={<FrontPage />} ></Route>
                     <Route path="/topics" element={<TopicsPage />}></Route>
+                    <Route path="/about" element={<AboutPage />}></Route>
                     <Route path="/help" element={<HelpPage />}>-</Route>
                     <Route path="/howto" element={<HowToPlayPage />}></Route>
                     <Route path="/profile" element={<ProfilePage />}></Route>

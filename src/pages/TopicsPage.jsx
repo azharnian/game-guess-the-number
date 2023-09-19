@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function TopicsPage(){
 
@@ -46,6 +47,29 @@ export default function TopicsPage(){
     return (
         <section className="container">
             <h1>Topics</h1>
+                <section className="sub-container">
+                  <h2>⭐️ Learning Objectives ⭐️</h2>
+                  <p>
+                  Perserta didik mampu mengaplikasikan berbagai algoritma pencarian.
+                  </p>
+                </section>
+
+                <section className="sub-container">
+                  <h2>References from Wikipedia</h2>
+
+                  <ul>
+                    <li>
+                      <Link to={"https://id.wikipedia.org/wiki/Pencarian_linear"} target="_blank">Algoritma Linear Search</Link>
+                    </li>
+                    <li>
+                      <Link to={"https://en.wikipedia.org/wiki/Binary_search_algorithm"} target="_blank">Algoritma Binary Search</Link>
+                    </li>
+                  </ul>
+                </section>
+
+                <section className="sub-container">
+
+                <h2>References Youtube Video</h2>
                 {videos.map((video) => (
                     <div className="topic-item" key={video.id.videoId}>
                         <a
@@ -61,6 +85,8 @@ export default function TopicsPage(){
                         />
                     </div>
                 ))}
+                </section>
+                
         </section>
     )
 }
