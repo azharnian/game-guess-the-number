@@ -1,0 +1,352 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "dkRqp5SgLf25U62rXPVqwMIkc6A",
+    "nextPageToken": "CAoQAA",
+    "regionCode": "ID",
+    "pageInfo": {
+        "totalResults": 1050,
+        "resultsPerPage": 10
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "BQbBdvMugvaMuPOF0zuQLseSTJo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "sSYQ1H9-Vks"
+            },
+            "snippet": {
+                "publishedAt": "2019-05-15T16:50:58Z",
+                "channelId": "UCnxhETjJtTPs37hOZ7vQ88g",
+                "title": "Linear search vs Binary search",
+                "description": "This video explains the 3 basic and the most important differences between the linear search and binary search along with the ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sSYQ1H9-Vks/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sSYQ1H9-Vks/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sSYQ1H9-Vks/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Techdose",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-05-15T16:50:58Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "k2qIgmYhVMOZgdh8twsDSr00zBA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "qBGLYzFF1aQ"
+            },
+            "snippet": {
+                "publishedAt": "2019-03-15T05:25:44Z",
+                "channelId": "UC0RhatS1pyxInC00YKjjBqQ",
+                "title": "Linear Search vs Binary Search | GeeksforGeeks",
+                "description": "Find Complete Code at GeeksforGeeks Article: https://www.geeksforgeeks.org/linear-search-vs-binary-search/ This video is ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qBGLYzFF1aQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qBGLYzFF1aQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qBGLYzFF1aQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "GeeksforGeeks",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-03-15T05:25:44Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "aLb7srAvhkux3bcxcEq1duy-nO4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MFhxShGxHWc"
+            },
+            "snippet": {
+                "publishedAt": "2022-03-23T15:17:06Z",
+                "channelId": "UCsBjURrPoezykLs9EqgamOA",
+                "title": "Binary Search Algorithm in 100 Seconds",
+                "description": "Binary Search is an algorithm that can find the index of an element in a sorted array data structure. You've likely used Binary ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MFhxShGxHWc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MFhxShGxHWc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MFhxShGxHWc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Fireship",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-03-23T15:17:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xORuUy7WbYErUYtPhwT8IS-zpEA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KXJSjte_OAI"
+            },
+            "snippet": {
+                "publishedAt": "2020-09-28T15:00:11Z",
+                "channelId": "UCBa659QWEk1AI4Tg--mrJ2A",
+                "title": "How Binary Search Makes Computers Much, Much Faster",
+                "description": "Featuring binary versus linear search, and non-clustered indexes. Uh, indices. However you want to say it. • MORE BASICS: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KXJSjte_OAI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KXJSjte_OAI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KXJSjte_OAI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Tom Scott",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-09-28T15:00:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ENj7s1ZeDHyh8ovGAYPHyRA_eTg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "uTyxscVC_-U"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-08T17:30:10Z",
+                "channelId": "UCBwmMxybNva6P_5VmxjzwqA",
+                "title": "Binary Search Algorithm - Simply Explained",
+                "description": "shorts Alpha 5.0 Placement Batch (Java+DSA) : https://www.apnacollege.in/course/alpha-batch-5 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/uTyxscVC_-U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/uTyxscVC_-U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uTyxscVC_-U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Apna College",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-08T17:30:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "IGT3BAFj4dlWNBQx2Qt07DJCezU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KdjeZgZGI4A"
+            },
+            "snippet": {
+                "publishedAt": "2018-07-28T19:27:32Z",
+                "channelId": "UCJX9LKdLAbz9BSFlluuCQcg",
+                "title": "Algorithms - Binary vs Linear Search",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KdjeZgZGI4A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KdjeZgZGI4A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KdjeZgZGI4A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "TeachingCS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-07-28T19:27:32Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Vk76vW3v78GyJYe8ycEQLnWgSdw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hicqc-OMr4o"
+            },
+            "snippet": {
+                "publishedAt": "2022-01-04T15:54:52Z",
+                "channelId": "UCNeKBV5RuU7B62xp0NiLjKw",
+                "title": "Linear Search vs Binary Search",
+                "description": "Difference between Linear search and Binary search #searchingalgorithm #binarysearch #linearsearch Learn more on: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hicqc-OMr4o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hicqc-OMr4o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hicqc-OMr4o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Geekboots",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-01-04T15:54:52Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "NCX7hGZ7tkn4ZzE9fjvekdZNKyI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "VL03KD-RxZc"
+            },
+            "snippet": {
+                "publishedAt": "2020-08-24T21:42:27Z",
+                "channelId": "UCXr2d6Q6EPHTkNiJaOq61xA",
+                "title": "Linear Search and Binary Search Animated",
+                "description": "A nice animation showing how two simple searching algorithms work.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VL03KD-RxZc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VL03KD-RxZc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VL03KD-RxZc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "05st",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-08-24T21:42:27Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "gCCcqMlH95E_-6F6q7-LuS5NRgA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "PzDLaKsH8UI"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-28T07:57:46Z",
+                "channelId": "UCtvr7uwDVkNbMDGKUrd-8ug",
+                "title": "What is Linear Search Algorithm in Data Structures and Algorithms",
+                "description": "Linear search is a basic algorithm used to search for an element in a list or array. It works by sequentially examining each element ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/PzDLaKsH8UI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/PzDLaKsH8UI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/PzDLaKsH8UI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coders Hub",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-28T07:57:46Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tTFx-1aJ49uvw7PKqn1unNmeWvE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "FHRyqWdLkpE"
+            },
+            "snippet": {
+                "publishedAt": "2020-12-17T20:48:02Z",
+                "channelId": "UCjsDbESC3SLZOyzLCy5Owgw",
+                "title": "Linear Search Vs Binary Search | Animated Examples",
+                "description": "Dear Learners, The video explains two search techniques - Linear Search and Binary Search with simple examples for easy ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FHRyqWdLkpE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FHRyqWdLkpE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FHRyqWdLkpE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "The Last Minute Professor",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-12-17T20:48:02Z"
+            }
+        }
+    ]
+}
