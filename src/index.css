@@ -2,12 +2,17 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24pt;
 }
 
 a {
   text-decoration: none;
+  color: rgb(62, 61, 61);
+}
+
+small {
+  font-size: 10pt;
 }
 
 body {
@@ -36,6 +41,16 @@ header > div.bar {
   height: 30pt;
   border-radius: 15pt;
   background-color: gray;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+header > div.bar span {
+  display: inline-block;
+  font-size: 12pt;
+  font-weight: bold;
+  /* background-color: salmon; */
 }
 
 header > div.profile {
@@ -122,6 +137,8 @@ form input[type=text] {
   outline: none;
   border-bottom: 1px solid black;
   text-align: center;
+  font-size: 18pt;
+  width: 100%;
 }
 
 form input[type=submit] {
@@ -136,8 +153,14 @@ form input[type=submit] {
   width: 120pt;
 }
 
+div.misc-container {
+  position: relative;
+  height: 40px;
+  background-color: gray;
+}
+
 div.help-btn {
-  position: fixed;
+  position: absolute;
   bottom: 70pt;
   right: 15pt;
   width: 60pt;
@@ -169,11 +192,53 @@ h2.attempt-box {
   font-size: 16pt;
   background-color: gray;
   padding: 15px;
-  border-radius: 30px;
+  border-radius: 50px;
 }
 
 div.topic-item {
-  height: 100px;
-  border-radius: 20px;
+  min-height: 100px;
+  border-radius: 10px;
   background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+div.topic-item img {
+  height: 50px;
+}
+
+div.topic-item a {
+  grid-area: details;
+  font-size: 10pt;
+  text-align: left;
+  word-spacing: 5px;
+}
+
+section.container {
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  /* background-color: gainsboro; */
+}
+
+div.top-message-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  background-color: salmon;
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+}
+
+div.top-message-box > div {
+  font-size: 10pt;
 }

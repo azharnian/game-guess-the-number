@@ -1,17 +1,25 @@
+import { useGameContext } from "../contexts/Game";
+import WinPage from "./WinPage";
+import GamePage from "./GamePage";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function LinearGamePage(){
+    const navigate = useNavigate()
+    const { gameData } = useGameContext()
+    
+    useEffect(() => {
+        if (!gameData.isStart)
+        navigate("/")
+    },[])
 
-    return (
-        <>
-            <h2 className="stopwatch"><span className="minute">0</span> : <span className="second">0</span> </h2>
-
-            <h2 className="attempt-box"><span className="attempt-text">0</span> Times</h2>
-            <h1>What is the number ?</h1>
-            <p></p>
-            <form action="">
-                <input type="text" name="guessedNumber" id="" />
-                <input type="submit" value="guess" />
-            </form>
-        </>
-    )
+    if (gameData.isWin) {
+        return (
+                <WinPage />
+        )
+    } else if( gameData.isStart) {
+        return (
+                <GamePage />
+        ) 
+    }
 }

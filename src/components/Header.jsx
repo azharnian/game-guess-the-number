@@ -1,18 +1,33 @@
-import { Link, Outlet } from "react-router-dom"
+import { Link } from "react-router-dom"
+
+import { useUserContext } from "../contexts/User"
+import { useEffect } from "react"
+import { useNavigate } from "react-router-dom"
 
 export default function Header(){
 
-    return (
-        <header>
-            <div className="bar"></div>
-            <div className="profile">
-                <Link to={"/profile"}>
-                    <span>
-                        👨🏻‍💻
-                    </span>
-                </Link>
-            </div>
-            <Outlet />
-        </header>
-    )
+    const navigate = useNavigate()
+
+    const {userData} = useUserContext()
+
+    useEffect(() => {
+        if (!userData.player)
+            navigate("/")
+    },[])
+
+    if (userData.player)
+        return (
+            <header>
+                <div className="bar">
+                    <span> { `Hi ${userData.player}!`}</span>
+                </div>
+                <div className="profile">
+                    <Link to={"/profile"}>
+                        <span>
+                            👨🏻‍💻
+                        </span>
+                    </Link>
+                </div>
+            </header>
+        )
 }
