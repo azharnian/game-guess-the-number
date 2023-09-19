@@ -1,5 +1,5 @@
 {
-  "homepage": "https://azharnian.github.io/game-guess-the-number",
+  "homepage": "https://azharnian.github.io/game-guess-the-number/",
   "name": "guess-the-number",
   "private": true,
   "version": "0.0.0",
@@ -17,6 +17,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0",
+    "react-youtube": "^10.1.0",
     "yup": "^1.2.0"
   },
   "devDependencies": {

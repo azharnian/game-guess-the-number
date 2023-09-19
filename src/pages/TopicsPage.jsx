@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+import React from 'react';
+
+
 export default function TopicsPage(){
 
     const [videos, setVideos] = useState([]);
@@ -50,7 +53,7 @@ export default function TopicsPage(){
                 <section className="sub-container">
                   <h2>⭐️ Learning Objectives ⭐️</h2>
                   <p>
-                  Perserta didik mampu mengaplikasikan berbagai algoritma pencarian.
+                  Perserta didik mampu mengaplikasikan berbagai algoritma pencarian. (Informatika Kelas 10 - (BK) Berpikir Komputasional - Fase E)
                   </p>
                 </section>
 

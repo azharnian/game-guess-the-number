@@ -1,5 +1,27 @@
 import { Link } from "react-router-dom";
 
+import YouTube from 'react-youtube';
+
+function VideoPembatik() {
+  const videoId = 'mZF7FFPEF1E'; // Replace with your YouTube video ID
+
+  // Options for the YouTube player (you can customize these)
+  const opts = {
+    height : '180',
+    width: '280',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1, // 0 or 1 (auto-play off or on)
+    },
+  };
+
+  return (
+    <div>
+      <YouTube videoId={videoId} opts={opts} />
+    </div>
+  );
+}
+
 export default function AboutPage(){
 
     return (
@@ -23,6 +45,8 @@ export default function AboutPage(){
 
                 <Link to={"/"} className="btn-play">Play Now</Link>
             </section>
+
+            <VideoPembatik></VideoPembatik>
 
             <section className="sub-container-bottom">
                 <div className="circle one" style={{ backgroundImage: "url(/tut-wuri-handayani.png)" }}></div>
